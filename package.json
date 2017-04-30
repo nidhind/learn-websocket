@@ -1,0 +1,21 @@
+{
+  "name": "real-time-update",
+  "version": "0.0.1",
+  "description": "A sample app to show easiness of real time update using pure HTML and WebSockets upon Node.JS Express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "real-time",
+    "update",
+    "wenbsocket",
+    "html"
+  ],
+  "author": "nidhind",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-ws": "^3.0.0",
+  }
+}

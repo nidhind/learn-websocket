@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client - Real time update</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+<h1>Welcome to Real time update demo</h1>
+<h3>
+    What is your name?
+    <input type="text" id="me" class="input-sm">
+    <input type="button" id="connect" value="Connect" class="btn-primary" onclick="connectToServer()"><br>
+    Please type the name of your buddy:
+    <input type="text" id="user" class="input-sm">
+    <input type="button" id="chat" value="Chat" class="btn-primary" onclick="connectToUser()">
+</h3>
+
+<!--Chat box, initially hidden-->
+<div class="hidden" id="chatbox">
+    <div class="form-group ">
+        <label for="comment">Messages:</label>
+        <textarea class="form-control" rows="5" id="comment" disabled></textarea>
+        <label for="msg-to-send">Type your message:</label>
+        <textarea class="form-control" rows="5" id="msg-to-send"></textarea>
+        <input type="button" id="send-msg" value="Send" class="btn-primary" onclick="sendMsgToUserer()">
+    </div>
+</div>
+</body>
+</html>
