@@ -1,0 +1,9 @@
+# IDE files
+.idea
+.vscode
+
+# Module files
+node_modules
+bower_components
+
+# Log files

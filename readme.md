@@ -1,0 +1,1 @@
+A simple and basic but incomplete websocket based chat server and web client. Just for fun project :P
